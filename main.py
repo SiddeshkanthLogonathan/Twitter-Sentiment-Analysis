@@ -12,8 +12,8 @@ def main():
     parser.add_argument('--tweets', nargs='?', default=100)
     args = parser.parse_args()
 
-    ticker = args.ticker
-    if len(ticker) == 1:
+    name = args.name
+    if name == None:
         sys.stdout.write(ERROR_MESSAGE + '\n')
         sys.exit(25)
     
@@ -23,7 +23,6 @@ def main():
         for row in spamreader:
             credentials = row
             
-    print(credentials)
     api = authenticate_twitter(credentials)
 
 def authenticate_twitter(list):
