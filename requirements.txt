@@ -1,1 +1,7 @@
-
+argparse
+tweepy
+textblob
+wordcloud
+pandas
+numpy
+matplotlib
