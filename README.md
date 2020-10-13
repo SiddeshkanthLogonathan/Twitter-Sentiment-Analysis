@@ -8,7 +8,14 @@ Sentiment Analysis is done by looking at the last `n` days computing the subject
 ---
 
 # Requirements
-Before being able to run this program, you need to make a Developer account with twitter and you will need to use all 4 Keys from its API which you can find [here](https://www.extly.com/docs/autotweetng_joocial/tutorials/how-to-auto-post-from-joomla-to-twitter/apply-for-a-twitter-developer-account/#apply-for-a-developer-account)
+1. Before being able to run this program, you need to make a Developer account with twitter and you will need to use all 4 Keys from its API which you can find [here](https://www.extly.com/docs/autotweetng_joocial/tutorials/how-to-auto-post-from-joomla-to-twitter/apply-for-a-twitter-developer-account/#apply-for-a-developer-account)
+
+2. Create a csv file named `keys.csv` and store the four keys in the given order with a delimiter: ` ,`
+    - consumerKey
+    - consumerSecret
+    - accessToken
+    - accessTokenSecret 
+
 
 # Installation
 Navigate into the root of this directory and execute 
